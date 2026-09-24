@@ -1,3 +1,4 @@
+# Pages enabled; this comment keeps the deployment workflow triggerable.
 name: Deploy Lyfe Jennings preview to GitHub Pages
 
 on:
