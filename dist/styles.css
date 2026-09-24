@@ -28,3 +28,6 @@ section:has(.in)>.section-mark:after{transform:scaleX(1)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:5px}
 @media(max-width:850px){.watch{padding:6rem 6vw}.watch-layout{grid-template-columns:1fr;gap:2rem;margin-top:3rem}.watch-copy h2{font-size:clamp(4.5rem,17vw,8rem)}.hero-media img{object-position:55% center}}
 @media(prefers-reduced-motion:reduce){.reveal,.hero-media img,.section-mark:after{transition:none}.hero-media.in img{transform:none}}
+
+.story-statement{grid-column:1/-1;margin:6rem 0 0;padding:6rem 4vw;border-top:1px solid #8d8b82;text-align:center;font:500 clamp(2.6rem,5vw,5rem)/1.05 "Cormorant Garamond",serif}
+@media(max-width:850px){.story-statement{margin-top:2rem;padding:4rem 0}}

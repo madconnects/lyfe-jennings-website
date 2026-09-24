@@ -1,6 +1,6 @@
 const tourDates = [
-  { iso: '2026-10-03T19:00:00-04:00', label: 'OCT 03', city: 'Cincinnati, OH', venue: "Bogart’s", url: 'https://www.ticketmaster.com/artist/991231' },
-  { iso: '2026-12-19T19:00:00-05:00', label: 'DEC 19', city: 'Orlando, FL', venue: 'House of Blues Orlando', url: 'https://www.ticketmaster.com/artist/991231' }
+  { iso: '2026-10-03T19:00:00-04:00', label: 'OCT 03', city: 'Cincinnati, OH', venue: "Bogart’s", url: 'https://www.ticketmaster.com/lyfe-jennings-cincinnati-ohio-10-03-2026/event/1600646D263E5D46' },
+  { iso: '2026-12-19T19:00:00-05:00', label: 'DEC 19', city: 'Orlando, FL', venue: 'House of Blues Orlando', url: 'https://orlando.houseofblues.com/shows' }
 ];
 const today = new Date();
 const upcoming = tourDates.filter(d => new Date(d.iso) >= today);
