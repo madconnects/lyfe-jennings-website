@@ -1,32 +1,130 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#071d22">
-  <title>Lyfe Jennings | Official Website</title>
-  <meta name="description" content="The official home of Lyfe Jennings. Listen to the music on your favorite platform.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Lyfe Jennings">
-  <meta property="og:description" content="Listen to Lyfe Jennings on your favorite platform.">
-  <meta property="og:image" content="assets/lyfe-hero-highres.jpeg">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lyfe Jennings — Official Website</title>
+  <meta name="description" content="The official home of Lyfe Jennings — singer, songwriter, storyteller, and live artist." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lyfe Jennings — Official Website" />
+  <meta property="og:description" content="Music, stories, live shows, and more from Lyfe Jennings." />
+  <meta property="og:image" content="assets/lyfe-hero-highres.jpeg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Inter:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23052229'/%3E%3Cpath d='M16 13v38h31v-8H25V13z' fill='%23f3eee3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="home">
-  <main class="landing">
-    <div class="landing-copy">
-      <p class="overline">The official home of</p>
-      <h1><span class="lyfe-type">Lyfe</span><span class="surname">Jennings</span></h1>
-      <div class="landing-action">
-        <p>Music that stays with you.</p>
-        <a class="primary-action" href="listen.html">Listen <span aria-hidden="true">↗</span></a>
+<body>
+  <a class="skip-link" href="#story">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="nav" id="top">
+    <a class="wordmark" href="#top" aria-label="Lyfe Jennings home"><span class="lyfe-type">LYFE</span> JENNINGS</a>
+    <button class="menu" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav id="navlinks" aria-label="Primary navigation">
+      <a href="#story">Story</a><a href="#music">Music</a><a href="#watch">Watch</a><a href="#live">Live</a><a href="#books">Books</a><a href="#press">Press</a>
+      <a class="nav-cta" href="#contact">Book <span class="lyfe-type">Lyfe</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Singer · Songwriter · Storyteller</p>
+        <h1>THIS IS<br><em class="hero-name">LYFE.</em></h1>
+        <p class="hero-note">Real stories. Timeless music.<br>A legacy still being written.</p>
+        <a class="text-link" href="#music">Enter the catalog <span>↘</span></a>
       </div>
-      <span class="edition">Music. People. Purpose.</span>
-    </div>
-    <div class="landing-image" aria-hidden="true"><img src="assets/lyfe-hero-highres.jpeg" alt="" width="1140" height="798" fetchpriority="high"></div>
+      <figure class="hero-media reveal">
+        <img src="assets/lyfe-hero-highres.jpeg" width="1140" height="798" fetchpriority="high" alt="Lyfe Jennings in a black jacket against a dark backdrop" style="object-position:55% center" />
+        <figcaption>Music. People. Purpose. Always.</figcaption>
+      </figure>
+      <p class="hero-index">01 / Official</p>
+    </section>
+
+    <section class="story" id="story">
+      <div class="section-mark"><span>02</span><span>The artist</span></div>
+      <div class="story-title reveal"><p>More than</p><h2>MUSIC.</h2></div>
+      <div class="story-copy reveal">
+        <p class="lede"><span class="lyfe-type">Lyfe</span> Jennings makes songs that tell the truth before they offer the answer.</p>
+        <p>A singer, songwriter and storyteller, <span class="lyfe-type">Lyfe</span> built a catalog around love, accountability, consequence, faith and becoming. His work speaks plainly, carries soul, and keeps finding new listeners because the stories remain human.</p>
+        <p>More than two decades after <i><span class="lyfe-type">Lyfe</span> 268-192</i>, he remains an active recording and touring artist—meeting a multigenerational audience in the place where testimony and music become one.</p>
+      </div>
+      <div class="story-statement reveal">Real stories.<br>Music that stays.</div>
+    </section>
+
+    <section class="catalog" id="music">
+      <div class="section-mark light"><span>03</span><span>The catalog</span></div>
+      <header class="catalog-head reveal"><p>A catalog that</p><h2>LIVES ON.</h2></header>
+      <div class="track-list reveal" aria-label="Signature songs">
+        <div><span>01</span><strong>Must Be Nice</strong><small><span class="lyfe-type">Lyfe</span> 268-192</small></div>
+        <div><span>02</span><strong>S.E.X.</strong><small>The Phoenix</small></div>
+        <div><span>03</span><strong>Statistics</strong><small>I Still Believe</small></div>
+        <div><span>04</span><strong>Never Never Land</strong><small><span class="lyfe-type">Lyfe</span> 268-192</small></div>
+      </div>
+      <div class="music-links reveal">
+        <p>From the records that stayed<br>to the music still arriving.</p>
+        <div><a href="https://music.apple.com/us/artist/lyfe-jennings/113209214" target="_blank" rel="noreferrer">Apple Music ↗</a><a href="https://open.spotify.com/artist/5pRHqfwcf9ovpL5Q7rA3xL" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://www.youtube.com/results?search_query=Lyfe+Jennings+official" target="_blank" rel="noreferrer">YouTube ↗</a></div>
+      </div>
+    </section>
+
+    <section class="watch" id="watch" aria-labelledby="watch-title">
+      <div class="section-mark"><span>04</span><span>In motion</span></div>
+      <div class="watch-layout">
+        <div class="watch-copy reveal">
+          <p class="eyebrow">Watch the story</p>
+          <h2 id="watch-title">SEE<br><em><span class="lyfe-type">LYFE</span>.</em></h2>
+          <p>Take a closer look at the artist behind the music.</p>
+          <a class="text-link" href="https://youtu.be/xzNla4noL6I" target="_blank" rel="noopener noreferrer">Open on YouTube <span>↗</span></a>
+        </div>
+        <div class="video-frame reveal">
+          <iframe src="https://www.youtube-nocookie.com/embed/xzNla4noL6I" title="Lyfe Jennings video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="current">
+      <div class="current-word reveal"><span>STILL</span><span>HERE.</span><em>Still <span class="lyfe-type">Lyfe</span>.</em></div>
+      <figure class="current-photo reveal"><img src="assets/lyfe-closeup.jpeg" alt="Lyfe Jennings smiling in a green cap" /></figure>
+      <p class="current-copy reveal">A voice shaped by experience. A pen that stays close to real life. An artist still creating in the present tense.</p>
+    </section>
+
+    <section class="live" id="live">
+      <div class="section-mark light"><span>05</span><span>On stage</span></div>
+      <div class="live-head reveal"><p>The <span class="lyfe-type">Lyfe</span> experience</p><h2>LIVE.</h2></div>
+      <p class="live-intro reveal">The records you know, delivered with the stories behind them. Intimate rooms, festival stages and nights built on connection.</p>
+      <div class="dates" id="dates" aria-live="polite"></div>
+      <p class="date-note">Dates are displayed from verified primary ticket listings and may change. Confirm details with the ticket provider.</p>
+    </section>
+
+    <section class="books" id="books">
+      <figure class="books-photo reveal"><img src="assets/lyfe-books.jpeg" alt="Lyfe Jennings holding Decisions, Patterns, and Pride from The Adventures of Lyfe" /></figure>
+      <div class="books-copy reveal">
+        <p class="eyebrow">Storytelling beyond music</p><h2>THE ADVENTURES<br>OF <em><span class="lyfe-type">LYFE</span>.</em></h2>
+        <p>Lessons become stories in a children’s series created to spark conversations about choice, character and growth.</p>
+        <ul><li><span>01</span>Decisions</li><li><span>02</span>Patterns</li><li><span>03</span>Pride</li></ul>
+        <a class="button" href="https://theadventuresoflyfe.com" target="_blank" rel="noreferrer">Explore the books ↗</a>
+      </div>
+    </section>
+
+    <section class="press" id="press">
+      <div class="section-mark"><span>07</span><span>Press & media</span></div>
+      <h2 class="reveal">THE STORY,<br><em>READY TO SHARE.</em></h2>
+      <div class="press-grid reveal">
+        <article><span>Biography</span><p>A concise overview for editorial and event use.</p><a href="#contact">Request press materials ↗</a></article>
+        <article><span>Approved photography</span><p>High-resolution images for confirmed media use.</p><a href="#contact">Request assets ↗</a></article>
+        <article><span>Official EPK</span><p>Booking-ready artist, music and live information.</p><a href="#contact">Request EPK ↗</a></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">Concerts · Festivals · Private events · Media</p>
+      <h2 class="reveal">BRING <span class="lyfe-type">LYFE</span><br><em>TO THE ROOM.</em></h2>
+      <p>For booking, management, press and business inquiries, connect through the official inquiry channel.</p>
+      <a class="button inverse" href="mailto:booking@lyfejennings.com?subject=Lyfe%20Jennings%20Inquiry">Start an inquiry</a>
+      <footer><a href="#top"><span class="lyfe-type">LYFE</span> JENNINGS</a><span>Official website · 2026</span><a href="#top">Back to top ↑</a></footer>
+    </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
